@@ -6,7 +6,7 @@
 }
 .page {
     background-color: azure;
-    background-image: url("/assets/images/hypnotize.png");
+    background-image: url("../images/hypnotize.png");
 }
 
 .top-top {
@@ -34,7 +34,7 @@ header {
     
 }
 
-nav p {
+nav span {
     float: right;
     padding: 40px 0 10px 30px;
     height: 100px;
@@ -43,8 +43,28 @@ nav p {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     color: #777777;
-    border-left: 2px solid #cccccc;
 }
+
+a:link {
+    text-decoration: none;
+    color: #777777
+
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    
+
+}
+
+
 
 
 
@@ -90,7 +110,6 @@ img {
     clear: both;
     border-top: 8px solid #ce7bc0;
     text-align: center;
-    
-    
+    padding-top: 50px;
     
 }
