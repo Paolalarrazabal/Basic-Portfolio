@@ -186,7 +186,7 @@ img {
     height: 200px;
     background-size: contain;
 }
-.Skates p {
+.Skates p, .Space p, .Dogs p, .Cats p, .Sushi p {
     background-color: #ce7bc0;
     width: 250px;
     height: 60px;
@@ -210,17 +210,7 @@ img {
 
 }
 
-.Space p {
-    background-color: #ce7bc0;
-    width: 250px;
-    height: 60px;
-    margin-top: 130px;
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-}
+
 
 .Dogs {
     background-image: url("../images/Shiba.jpg");
@@ -229,18 +219,9 @@ img {
     background-size: cover;
     
 }
-.Dogs p {
-    background-color: #ce7bc0;
-    width: 250px;
-    height: 60px;
-    margin-top: 130px;
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
 
-}
+
+
 .Cats {
     background-image: url("../images/coolcat.jpg");
     width: 250px;
@@ -249,18 +230,7 @@ img {
     
  
 }
-.Cats p {
-    background-color: #ce7bc0;
-    width: 250px;
-    height: 60px;
-    margin-top: 130px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-}
+
 
 .Sushi {
     background-image: url("../images/Sushi.jpg");
@@ -268,15 +238,4 @@ img {
     height: 200px;
     background-size: cover;
 }
-.Sushi p {
-    background-color: #ce7bc0;
-    width: 250px;
-    height: 60px;
-    margin-top: 130px;
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-
-}
+ 
