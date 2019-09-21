@@ -99,6 +99,7 @@ span {
     width: 900px;
     height: 150px;
     text-align: left;
+    
 
 }
 input {
@@ -172,23 +173,110 @@ img {
     
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    background-color: antiquewhite;
+    background-color: white;
     grid-gap: 50px;
     grid-auto-flow: column;
     
 }
 
-.pictures {
-    background-color: #ce7bc0;
+
+.Skates {
+    background-image: url("../images/Skating\ .jpg");
     width: 250px;
     height: 200px;
-    
-   
-   
+    background-size: contain;
+}
+.Skates p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+.gallery p:hover {
+    opacity: .6;
+
+}
+.Space {
+    background-image: url("../images/Space\ .webp");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
 
 }
 
-.labels {
-    background-color: darkgreen;
+.Space p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.Dogs {
+    background-image: url("../images/Shiba.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+}
+.Dogs p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+.Cats {
+    background-image: url("../images/coolcat.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+ 
+}
+.Cats p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.Sushi {
+    background-image: url("../images/Sushi.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+.Sushi p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 
 }
